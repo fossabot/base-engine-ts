@@ -1,0 +1,14 @@
+/*
+  This file is here to contain some baseline styles
+  but most of your css should live in ../components
+ */
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  outline: 0;
+}

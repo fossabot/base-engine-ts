@@ -1,0 +1,23 @@
+{
+  "parser": "typescript-eslint-parser",
+  "extends": [
+    "airbnb",
+    "prettier",
+  ],
+  "rules": {
+    "comma-dangle": ["error", "never"],
+    "linebreak-style": 0,
+    "no-new": 0,
+    "no-plusplus": 0,
+    "no-use-before-define": 0,
+    "quotes": 0
+  },
+  "globals": {
+    "document": true,
+    "window": true,
+    "location": true,
+    "Image": true,
+    "Waypoint": true
+
+  }
+}

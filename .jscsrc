@@ -1,0 +1,7 @@
+{
+    "present": "wordpress",
+    "fileExtensions": [".js", ".jsx", ".ts"],
+    "exlcudeFiles": [
+        "js/**.min.js"
+    ]
+}
